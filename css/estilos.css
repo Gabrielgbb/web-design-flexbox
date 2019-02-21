@@ -1,8 +1,50 @@
-*{
-    margin: 0;
+ /* Reset de propiedades */
+*{ 
+     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: sandybrown;
+    background-color: white;
+}
+/* Mobile First- CSS do mobile */
+header{
+    display: flex;
+    padding: 15px 20px 0 20px;
+    background-color: black;
+}
+header img{
+    width: -70px;
+    height: 150px;
+    margin-left: 250px;
+}
+header i{
+    color: white;
+    font-size: 3.8rem;
+}
+header nav {
+    display: none;
+}
+#sessao-principal figure img {
+    width: 80%;
+}
+footer{
+    background-color: black;
+}
+button{
+   width:490px;
+   height: 90px;
+   font-size: 40px;
+   border-radius: 17px 17px; 
+   color: white;
+   margin-left: 20px;
+   background-color: orangered;
+}
+h1{
+    padding: 0 20px;
+    color: orangered;
+    font-family: 'Crete Round', serif;
+}
+section p {
+   padding: 20px;
 }
